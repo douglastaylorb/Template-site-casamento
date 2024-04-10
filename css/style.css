@@ -2386,13 +2386,13 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #c5611a;
-  border-color: #ba5c18;
+  background-color:var(--hover);
+  border-color: var(--tertiary);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(232, 142, 77, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(201, 77, 232, 0.5);
 }
 
 .btn-secondary {
